@@ -1,0 +1,71 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  height: 100vh;
+  gap: 30px;
+  padding: 10% 0;
+}
+
+.vocals {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.btnVocal {
+  border: 2px solid #222;
+  background-color: #222;
+  color: #f2f2f2;
+  width: 56px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all .2s ease;
+  font-size: 24px;
+}
+
+.btnVocal:hover { 
+  border: 2px solid #333;
+  background-color: #333;
+}
+
+.btnVocal.active {
+  background-color: #111;
+}
+
+.btnMode {
+  border: 2px solid #222;
+  background-color: #222;
+  color: #f2f2f2;
+  padding: 12px 18px;
+  border-radius: 4px;
+  transition: all .2s ease;
+  font-size: 14px;
+}
+
+.btnMode:hover { 
+  border: 2px solid #333;
+  background-color: #333;
+}
+
+
+.currentView {
+  flex: 1;
+  font-size: 3rem;
+}
+
+.app {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
